@@ -1,0 +1,73 @@
+.board {
+    margin: 0!important;
+}
+.ui .board .cell {
+    padding: 1px !important;
+    display: flex !important;
+    justify-content: center!important;
+    align-items: center!important;
+    border-style: solid !important;
+    border-color:black !important;
+    
+}
+.notcolored {
+    background-color: rgb(175, 255, 244);
+}
+
+.colored {
+    background-color: rgb(255, 144, 144);
+}
+.selected {
+    border-style: solid;
+    border-color:red !important;
+    color: red !important;
+}
+.space {
+    visibility: hidden !important;
+}
+
+.ui .board .cell:hover {
+    padding: 1px !important;
+    display: flex !important;
+    justify-content: center!important;
+    align-items: center!important;
+    border-style: solid !important;
+    border-color:rgb(153, 151, 151) !important;
+    color: orange !important;
+    
+}
+.ui .board .cell .teal:hover {
+    padding: 1px !important;
+    display: flex !important;
+    justify-content: center!important;
+    align-items: center!important;
+    border-style: solid !important;
+    border-color:rgb(153, 151, 151) !important;
+    color: paleturquoise !important;
+    
+}
+
+.ui .board .cell .red:hover {
+    padding: 1px !important;
+    display: flex !important;
+    justify-content: center!important;
+    align-items: center!important;
+    border-style: solid !important;
+    border-color:rgb(153, 151, 151) !important;
+    color: orange !important;
+    
+}
+
+.indexIndicator {
+    position: absolute !important;
+    top: 3px !important;
+    left: 5px !important;
+}
+
+.chessPosition {
+    position: absolute !important;
+    bottom: 3px !important;
+    right: 5px !important;
+}
+
+
