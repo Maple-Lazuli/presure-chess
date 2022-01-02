@@ -1,6 +1,3 @@
-## Background
-[Checkout my post on Medium for the background on this project and how it performs](https://ada-lazi.medium.com/lstm-for-winning-chess-moves-14db0402a989)
-
 ## Getting Started:
 The following subsections contain instructions to install the app on a local machine and start the application.
 
